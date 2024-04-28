@@ -2,8 +2,8 @@ import { Tabs } from "flowbite-react";
 
 export default function ProductTabs() {
 	return (
-		<div className="flex justify-between w-full">
-			<Tabs style='underline'>
+		<div className="flex md:flex-row flex-col-reverse  justify-between w-full">
+			<Tabs className="w-full" style='underline'>
 				<Tabs.Item active title='All Plants'>
 				</Tabs.Item>
 				<Tabs.Item active title='New Arrivals'>

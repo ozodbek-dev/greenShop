@@ -14,12 +14,12 @@ function Products() {
 	return (
 		<Container>
 			<div className='w-full h-full flex md:gap-6 sm:gap-4 gap-2'>
-				<div>
+				<div className="md:flex flex-col hidden">
 					<ProductFilter />
 					<ProductSale />
 				</div>
 
-				<div className='flex flex-col  w-full items-end'>
+				<div className='flex flex-col w-full items-end'>
 					<ProductTabs/>
 					<div className='w-full grid md:gap-4 gap-2 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1'>
 						{products.map(product => {

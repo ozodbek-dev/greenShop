@@ -27,7 +27,7 @@ export default function CarouselComponent() {
         theme:customTheme
       }}
       >
-				<Carousel spellCheck className='h-[500px]'>
+				<Carousel spellCheck className='md:min-h-[450px] min-h-[200px]'>
 					<CarouselItem img={carouselImg} />
 					<CarouselItem img={carouselImg2} />
 					<CarouselItem img={carouselImg} />

@@ -10,8 +10,8 @@ function HomePage() {
 			<div className="w-full h-full flex flex-col gap-[2rem]">
         <CarouselComponent />
 				<Products />
-				<AdditionalProducts />
-				<OurBlogs/>
+				{/* <AdditionalProducts />
+				<OurBlogs/> */}
 			</div>
 		</Container>
 	);

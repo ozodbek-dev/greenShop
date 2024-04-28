@@ -11,8 +11,8 @@ import FooterNavigation from "./components/FooterNavigation.jsx";
 export default function Footer() {
 	return (
 		<Container>
-			<footer className='flex flex-col'>
-				<div className='bg-[#FBFBFB] p-6 grid gap-4 md:grid-cols-[repeat(auto-fit,_minmax(204px,_1fr))_354px] '>
+			<footer className='flex flex-col mt-8'>
+				<div className='bg-[#FBFBFB] sm:p-6 p-3 grid sm:gap-4 gap-2 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1'>
 					<FooterItem
 						title={"Garden Care"}
 						Icon={<SVG1 />}
@@ -29,10 +29,10 @@ export default function Footer() {
 						info={"We are an online plant shop offering a wide range of cheap and trendy plants."}
 					/>
 
-					<div className='flex flex-col justify-center gap-6 md:col-span-1 col-span-2'>
+					<div className='flex flex-col justify-center gap-6 lg:col-span-1 col-span-2'>
 						<FooterItemTitle title={"Would you like to join newsletters?"} />
 
-						<div className='flex items-center min-w-[354px]'>
+						<div className='flex items-center max-w-[354px]'>
 							<input
 								className='h-[40px] rounded-[6px] rounded-r-none w-full outline-none shadow-md border-none'
 								type='text'
